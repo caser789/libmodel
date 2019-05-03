@@ -1,3 +1,6 @@
+"""
+pip install mysql-python
+"""
 from django.conf import settings
 
 
@@ -34,14 +37,13 @@ class UserTab(PartitionModel):
         PRIMARY KEY (`transaction_id`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
     """
-    Model = models.Model
+    _Model = models.Model
 
     transaction_id = models.BigIntegerField(primary_key=True)
     name = models.CharField(max_length=10, null=False)
 
-
     class Config:
-        db_for_all = 'test_db'
+        db_for_all = 'test_dbc'
 
     class Meta:
         db_table = 'user_tab'
