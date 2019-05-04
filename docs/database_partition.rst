@@ -1,13 +1,13 @@
 Database Partition
 ==============
 
-need to `pip install mysql-python`
-
-need to `pip install django`
+need to :bash:`pip install mysql-python`
+need to :bash:`pip install django`
+need to :bash:`pip install libmodel`
 
 .. code-block:: python
-  from django.conf import settings
 
+  from django.conf import settings
   from libmodel.django import static_module
   from libmodel.django import PartitionModel
 

@@ -6,7 +6,7 @@ libmodel provide model libs
 from setuptools import setup
 
 setup(name='libmodel',
-      version='0.0.4',
+      version='0.0.5',
       url='https://github.com/caser789/libmodel',
       license='MIT',
       author='Xue Jiao',

@@ -1,9 +1,9 @@
 Table Partition
 ==============
 
-need to `pip install mysql-python`
-
-need to `pip install django`
+need to :bash:`pip install mysql-python`
+need to :bash:`pip install django`
+need to :bash:`pip install libmodel`
 
 .. code-block:: python
 
