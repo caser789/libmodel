@@ -11,6 +11,8 @@ Welcome to libmodel's documentation!
    :caption: Contents:
 
    installation
+   database_partition
+   table_partition
 
 
 
